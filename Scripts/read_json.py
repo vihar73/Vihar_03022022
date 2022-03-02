@@ -10,7 +10,7 @@ def main(filename, req_cols, low_memory = False):
     Parameters
     -----------------------------
     filename : input buffer (in this case local file);
-    req_cols : required set of columns in the final dataframe;
+    req_cols : set of required set of columns in the final dataframe;
     low_memory : True/False - read the input line by line or load all in memory at once
     
     Returns
