@@ -22,5 +22,5 @@ def test_proc():
     assert data['WeightKg'].dtype == np.float64
     assert data['BMI'][0] == 32.8
     assert data['BMI_Category'][2] == 'Normal Weight'
-    assert data['Health Risk'][3] == ''
+    assert data['Health Risk'][3] == 'Low risk'
     
